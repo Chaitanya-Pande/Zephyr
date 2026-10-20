@@ -1,6 +1,5 @@
 # Zephyr
-Create Repository folder example. **Zephyrproject**
-Create Folder **Repo** in workspace folder
-Run **west init -l** using CMD in Repo Folder
-Do **west update**
-
+- Create Repository folder example. **Zephyrproject**
+- Clone this Repository
+- Run **west init -l Repo** using CMD in Repo Folder
+- Do **west update**
