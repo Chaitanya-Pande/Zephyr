@@ -1,0 +1,19 @@
+manifest:
+  remotes:
+    - name: linumiz-fork
+      url-base: https://github.com/linumiz
+    - name: blinky-remote
+      url-base: https://github.com/Chaitanya-Pande
+
+  defaults:
+    remote: linumiz-fork
+
+  projects:
+    - name: zephyr
+      revision: dev/ifx/new-t2g-cyt2b7-cytvii_b_e_1m_100_cpu # Change to your target Zephyr version
+      import: true     # Automatically pulls dependencies/HALs required by Zephyr
+
+    - name: Blinky
+      remote: blinky-remote
+      path: my-app
+      revision: main   # Branch, tag, or commit hash for your app
