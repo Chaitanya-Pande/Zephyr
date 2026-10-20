@@ -1,5 +1,4 @@
 # Zephyr
-- Create Repository folder example. **Zephyrproject**
-- Clone this Repository
+- Clone this **Zephyrproject** Repository
 - Run **west init -l Repo** using CMD in Repo Folder
 - Do **west update**
