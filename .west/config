@@ -1,0 +1,7 @@
+[manifest]
+path = Repo
+file = west.yml
+
+[zephyr]
+base = zephyr
+
